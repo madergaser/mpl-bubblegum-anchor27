@@ -22,7 +22,7 @@ default = ["dep:spl-associated-token-account"]
 [dependencies]
 anchor-lang = { version = "0.27.0", features = ["init-if-needed"] }
 bytemuck = "1.13.0"
-mpl-token-metadata = { version = "1.11.0", features = ["no-entrypoint"] }
+mpl-token-metadata = { version = "1.10.0", features = ["no-entrypoint"] }
 num-traits = "0.2.15"
 solana-program = "~1.14.17"
 spl-account-compression = {git="https://github.com/madergaser/solana-program-library-spl-account-compression-anchor27.git", rev="cd8c4bd5f03c550b953b95b4d452a4c445d3c2d1", features=["cpi"]}
